@@ -2,10 +2,8 @@
 
 # Requirements : Ollama, Python3, PIP
 
-# Installing the required models 
-ollama pull mistral 
+# Installing the required model
 ollama pull hf.co/mecha-org/linux-command-generator-llama3.2-1b:F16
 
-# Installing the required Python modules
+# Installing the required Python module
 pip install ollama
-pip install streamlit
