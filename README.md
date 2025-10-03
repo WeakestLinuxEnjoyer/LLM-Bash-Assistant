@@ -4,11 +4,6 @@ As a Linux user who frequently used commandline, I often browse forums to solve 
 1. ask.py : A simple Python script to access Hugging Face Linux command generator custom model, no learning ability.
 2. LLMan : Large Language Man, LLM model that learns from manual pages implemented in AnythingLLM. 
 
-# Install Guide
-## ask.py
-- Clone this repository
-- Install requirements with `bash install.sh`
-- To uninstall, `bash uninstall.sh`
 ## LLMan
 _By the time of writing this, I don't know if I can export Anything LLM Agents. In the meantime, I simply provide a tutorial to configure it inside AnythingLLM_
 
