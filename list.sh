@@ -15,4 +15,4 @@ done
 rm tmp
 
 # Uncomment below part if you want to self-delete this script
-rm list.sh
+# rm list.sh
