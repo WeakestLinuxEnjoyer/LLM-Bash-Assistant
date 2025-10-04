@@ -1,17 +1,19 @@
-## LLMan
+# LLMan
 _By the time of writing this, I don't know if I can export Anything LLM Agents. In the meantime, I simply provide a tutorial to configure it inside AnythingLLM_
 
-**Preparation**
-Make sure your laptop can run LLM locally. The minimum requirements for LLMs are, NVIDIA 3000+ GPU RTX, Intel i7 processor with 8+ cores, RAM 16+GB, and 100+GB of free space. 
+## Preparation
+Your hardware shoould be strong enough to run an LLM locally. To find out, visit read this [website](https://www.canyourunai.com/). Then, you need to install following software : 
+- Linux System
+  - WSL (alternative)
+- [Ollama (Optional)](https://ollama.com/download/linux) 
+- [AnythingLLM](https://anythingllm.com/desktop)
 
-Install AythingLLM on your desktop. Click the icon according your OS type and wait for the download to finish.
 
-**Configuration**
-Convert all of your system commands manual pages into .txt files. The process should take around few minutes. 
+## Configuration
+**1. Training Files**
+Open your Linux system. Clone this repository. Create a directory and run `list.sh`. This will take few minutes. You will get a directory full of .txt files
 
-Open AnythingLLM and create your workspace. 
-
-Upload files to your workspace. Click `all custom documents`
+If you are not using Linux, you could simply unzip manuals.zip for training files. 
 
 Slash Command : 
 >According to the documents you have
