@@ -13,3 +13,8 @@ Open AnythingLLM and create your workspace.
 
 Upload files to your workspace. Click `all custom documents`
 
+Slash Command : 
+>According to the documents you have
+
+Query Prompt : 
+>Given the following conversation, relevant context, and a follow up question, reply with an answer to the current question the user is asking. Return ONLY your response to the question given the above information following the users instructions as needed. If you can't find the answer in the context, say "I don't know".
