@@ -49,4 +49,22 @@ Set the temperature to 0.3. This will make your AI more strict with the answer.
 Slash Command : 
 >According to the documents you have
 
+**4. Upload Training Data**
 
+Find an upload button on the right corner of your workspace menu. Click "upload data". Since the origram do not allow us to automatically unzip data, click all files; shift and hold arrow down button.
+![Upload Data](https://github.com/WeakestLinuxEnjoyer/LLM-Bash-Assistant/blob/main/LLMan/Images/LLMAN-7_upload.png)
+
+The process should take ~10 minutes. Once you finished, you should see this : 
+![Move Workspace](https://github.com/WeakestLinuxEnjoyer/LLM-Bash-Assistant/blob/main/LLMan/Images/LLMAN-8_copy-data.png)
+Click `custom-documents`, then move into workspace to import the data. Make sure you have all of the manuals and books inserted. 
+
+To make sure, you should see these documents on your workspace section : 
+![Finished](https://github.com/WeakestLinuxEnjoyer/LLM-Bash-Assistant/blob/main/LLMan/Images/LLMAN-9_data-finished.png)
+
+**Optional Steps**
+
+Change agent provider or LLM models if you want to use different setup.
+![Agent Provider](https://github.com/WeakestLinuxEnjoyer/LLM-Bash-Assistant/blob/main/LLMan/Images/LLMAN-4_agent-provider.png)
+
+Disable agent skills. LLMan relies on local document, thus web scraping and browsing skills can be turned off.
+![Agent Skills](https://github.com/WeakestLinuxEnjoyer/LLM-Bash-Assistant/blob/main/LLMan/Images/LLMAN-5_agent-settings.png)
