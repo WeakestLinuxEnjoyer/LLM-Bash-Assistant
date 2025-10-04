@@ -46,9 +46,6 @@ Scroll further and insert this text in the `prompt` section.
 
 Set the temperature to 0.3. This will make your AI more strict with the answer. 
 
-Slash Command : 
->According to the documents you have
-
 **4. Upload Training Data**
 
 Find an upload button on the right corner of your workspace menu. Click "upload data". Since the origram do not allow us to automatically unzip data, click all files; shift and hold arrow down button.
@@ -68,3 +65,34 @@ Change agent provider or LLM models if you want to use different setup.
 
 Disable agent skills. LLMan relies on local document, thus web scraping and browsing skills can be turned off.
 ![Agent Skills](https://github.com/WeakestLinuxEnjoyer/LLM-Bash-Assistant/blob/main/LLMan/Images/LLMAN-5_agent-settings.png)
+
+## Test Cases 
+
+### How do I know if LLMan is working as intended?
+
+You can ask a question and ask if it's according to the context. For example, let's as LLMan to define a `cat`; this is a UNIX program that lets you view file contents to the screen. If you see this answer, LLMan is working well. 
+![Cat LLMan](https://github.com/WeakestLinuxEnjoyer/LLM-Bash-Assistant/blob/main/LLMan/Images/LLMAN-11_context2.png)
+
+If you ask an untrained AI about cat, the answer is this :
+![Cat General](https://github.com/WeakestLinuxEnjoyer/LLM-Bash-Assistant/blob/main/LLMan/Images/LLMAN-10_context1.png)
+
+**More Examples**
+1. Give examples of UNIX commands, such as `sort(https://github.com/WeakestLinuxEnjoyer/LLM-Bash-Assistant/blob/main/LLMan/Images/LLMAN-16_examples.png)`.
+2. Translate human languages into a bash [script](https://github.com/WeakestLinuxEnjoyer/LLM-Bash-Assistant/blob/main/LLMan/Images/LLMAN-17_translate.png).
+
+### Where do LLMan get the answers?
+
+If you want to see LLMan answers source, click the `citations>` button below the answer. You should see this :
+![Citations](https://github.com/WeakestLinuxEnjoyer/LLM-Bash-Assistant/blob/main/LLMan/Images/LLMAN-12_citations.png)
+
+Let's dig deeper by clicking the citation's name : 
+![Citations Detail](https://github.com/WeakestLinuxEnjoyer/LLM-Bash-Assistant/blob/main/LLMan/Images/LLMAN-13_citations2.png)
+
+### "LLMan answer is a bit suspicious"
+
+![Hallucinate](https://github.com/WeakestLinuxEnjoyer/LLM-Bash-Assistant/blob/main/LLMan/Images/LLMAN-14_hallucinate.png)
+
+This means LLMAn hallucinates. As we can see, LLMan produces a code in Python despite having no Python code generation ability. 
+If your agent hallucinates, you can insert this slash command using `/` button in the chat. 
+Slash Command : 
+>According to the documents you have
