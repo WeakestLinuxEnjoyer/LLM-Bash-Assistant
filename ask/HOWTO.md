@@ -11,3 +11,6 @@ _Every query must be a string (enclosed in " ")_
 **Connect with Other Commands via Pipes**
 
 **Save Output into file**
+
+
+Note : ![alt text](http://url/to/img.png)
